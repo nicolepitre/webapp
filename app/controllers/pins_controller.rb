@@ -26,7 +26,6 @@ class PinsController < ApplicationController
       render action: 'new'
     end
   end
-end
 
 
   def update
@@ -36,7 +35,6 @@ end
       render action: 'edit'
     end
   end
-end
 
  
   def destroy
